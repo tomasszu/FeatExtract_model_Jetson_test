@@ -1,8 +1,8 @@
 FROM nvcr.io/nvidia/l4t-tensorrt:r10.3.0-devel
 
-# Nano nav iekļauts (apt update && apt install nano -y)
+# Nano not included (apt update && apt install nano -y)
 
-#vajag cv2
+#needs cv2
 # pip install pycuda, psutil
 
 ENV DEBIAN_FRONTEND=noninteractive
